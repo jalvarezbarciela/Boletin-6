@@ -26,7 +26,7 @@ public class Calculos {
     }
 
     public void perimetroCirculo() {
-        System.out.println("Cal é o tamaño do radio?");
+        System.out.println("Cal é o valor do radio?");
         float radio = teclado.nextFloat();
         float perimetro = (float) Math.PI * ((float) Math.pow(radio, 2));
         System.out.println("O perímetro do cículo é " + perimetro);
