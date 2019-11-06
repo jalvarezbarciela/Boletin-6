@@ -9,6 +9,12 @@ public class Numero {
     public Numero(){
     
 }
+      public void setNumero(int num){
+        numero=num;
+    }
+    public int getNumero(int num){
+        return num;
+    }
     public Numero(float numero){
         this.numero=numero;
     }
